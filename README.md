@@ -8,6 +8,8 @@ To use this module Install it by the following command:
 
 Install-Module -Name Copy-PNPNavigation	
 
+This module is using the PNP module and the ImportExcel module. both of them will install if it couldn't find them.
+
 How to use it: 
 
 Copy-PNPNavigation -SourceSite https://contoso.sharepoint.com/sites/SourceSite -BackupDestination C:\FolderOfBackupFile -DestinationSite https://contoso.sharepoint.com/sites/DestinationSite -NavigationLocation TopNavigationBar
